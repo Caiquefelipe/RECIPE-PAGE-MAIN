@@ -1,0 +1,85 @@
+body {
+    background-color: #f3e4dd;
+   height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 2em;
+    border-radius: 16px;
+    max-width: 666px;
+    margin: 5em auto; 
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 13px;
+}
+
+h3 {
+    color: #774159;
+}
+
+.Instrucoes, .nutricao-titulo, .Ingredientes-titulo {
+    color: rgb(122, 70, 70);
+}
+
+  
+  td{
+    border-bottom: 1px solid #ddd;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    
+  }
+
+  .Instrucoes-topico{
+    color:
+    #5a5653
+  }
+
+  .quantidade{
+    color: rgb(97, 54, 54);
+  }
+  
+.bloco-preparacao-time {
+    background-color: #fbf3fb;
+    padding: 0.2em;
+    border-radius: 6px;
+}
+
+.preparacao-titulo, li {
+    font-family: "Outfit", sans-serif;
+}
+
+li {
+    margin: 10px;
+    color:#a78e72
+}
+
+ p{
+    color:#a78e72
+ }
+  td {
+    padding: 8px;
+  }
+
+table {
+    width: 100%;
+  }
+@media (max-width: 1789px) {
+    .container {
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 1em;
+    }
+}
+
